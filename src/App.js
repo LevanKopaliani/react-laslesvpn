@@ -1,8 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Features from "./components/Features";
+import Features from "./pages/Features";
 import Header from "./components/Header";
 import Main from "./pages/Main";
+import Pricing from "./pages/Pricing";
+import Testimonials from "./pages/Testimonials";
+import Reviews from "./pages/Reviews";
 
 const Layout = () => {
   return (
@@ -10,6 +13,9 @@ const Layout = () => {
       <Header />
       <Main />
       <Features />
+      <Pricing />
+      <Testimonials />
+      <Reviews />
     </>
   );
 };

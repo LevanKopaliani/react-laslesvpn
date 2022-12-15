@@ -1,0 +1,19 @@
+.reviews-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.reviews-title {
+  max-width: 447px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+}
+.reviews-subtitle {
+  max-width: 555px;
+  line-height: 30px;
+  color: #4f5665;
+}

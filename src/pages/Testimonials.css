@@ -1,0 +1,32 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.testimonials-title {
+  max-width: 382px;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  text-align: center;
+}
+.testimonials-subtitle {
+  margin-top: 20px;
+  max-width: 555px;
+  text-align: center;
+  color: #4f5665;
+  line-height: 30px;
+}
+
+.testimonials-map {
+  margin-top: 100px;
+}
+
+.testimonials-map__img {
+  max-width: 100%;
+  height: auto;
+}

@@ -27,6 +27,7 @@
   position: relative;
   border-width: 0;
   color: #fff;
+  font-size: 16px;
   line-height: 25px; /* check */
   font-weight: 700;
   background-color: #f53838;
@@ -49,6 +50,11 @@
 }
 
 .get-started-ilst {
-  width: 100%;
+  /* width: 100%; */
   max-width: 610px;
+  height: auto;
+}
+.get-started-ilst img {
+  width: 100%;
+  height: auto;
 }
