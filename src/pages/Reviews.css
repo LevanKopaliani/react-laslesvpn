@@ -17,3 +17,8 @@
   line-height: 30px;
   color: #4f5665;
 }
+.review-slider {
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}

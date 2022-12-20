@@ -4,6 +4,10 @@
   border: 2px solid #ddd;
   border-radius: 10px;
   padding: 30px;
+  overflow: hidden;
+}
+.slidercard:hover {
+  border: 2px solid #f53838;
 }
 .customer {
   height: 50px;

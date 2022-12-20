@@ -3,12 +3,11 @@ import "./SliderCard.css";
 import ReviewStar from "../img/reviewstar.png";
 
 function SliderCard({ customer }) {
-  console.log(customer.image);
   return (
     <div className="slidercard">
       <div className="customer">
         <div className="customer-image">
-          <img src="../img/review/1.png" alt="customer" />
+          <img src={customer.image} alt="customer" />
         </div>
         <div className="customer-info">
           <p className="customer-info__name">{customer.name}</p>

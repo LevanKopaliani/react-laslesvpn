@@ -14,7 +14,7 @@ function Reviews() {
         </p>
       </div>
       <div className="review-main">
-        <div className="revuew-slider">
+        <div className="review-slider">
           <Reviewslider />
         </div>
       </div>
