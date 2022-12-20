@@ -34,8 +34,7 @@
   margin: 35px 0;
   padding: 35px 90px;
 }
-.block-icon {
-}
+
 .block-title {
   display: flex;
   flex-direction: column;
@@ -45,7 +44,7 @@
 .features-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .features-section_img {
@@ -60,7 +59,7 @@
 .features-section_info {
   width: 100%;
   max-width: 427px;
-  margin-left: 170px;
+  /* margin-left: 170px; */
 }
 .features-title {
   font-size: 35px;

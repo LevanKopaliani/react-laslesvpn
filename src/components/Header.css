@@ -38,6 +38,7 @@
   align-items: center;
   gap: 15px;
   margin-right: 50px;
+  z-index: 9;
 }
 .menu-icon {
   font-size: 24px;

@@ -1,0 +1,40 @@
+.slidercard {
+  width: 400px;
+  height: 230px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+}
+.customer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.customer-info {
+  display: flex;
+  justify-content: center;
+
+  flex-grow: 1;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.customer-info__name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #0b132a;
+}
+.customer-info__city {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f5665;
+}
+.review-score {
+  margin-right: 10px;
+}
+.customer-comment {
+  padding-top: 20px;
+  color: #0b132a;
+
+  line-height: 30px;
+}
