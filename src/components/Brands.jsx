@@ -5,7 +5,7 @@ import Discord from "../img/discord.png";
 import Spotify from "../img/spotify.png";
 import Reddit from "../img/reddit.png";
 
-function Brands() {
+const Brands = () => {
   return (
     <div className="brands">
       <div className="brands-img">
@@ -25,6 +25,6 @@ function Brands() {
       </div>
     </div>
   );
-}
+};
 
 export default Brands;

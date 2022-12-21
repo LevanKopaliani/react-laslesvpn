@@ -1,7 +1,7 @@
 import Reviewslider from "../components/Reviewslider";
 import "./Reviews.css";
 
-function Reviews() {
+const Reviews = () => {
   return (
     <>
       <div className="reviews-heading">
@@ -20,6 +20,6 @@ function Reviews() {
       </div>
     </>
   );
-}
+};
 
 export default Reviews;

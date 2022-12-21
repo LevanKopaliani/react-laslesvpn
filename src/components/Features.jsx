@@ -4,7 +4,7 @@ import Users from "../img/user.png";
 import Locations from "../img/location.png";
 import Servers from "../img/Server.png";
 
-function Features() {
+const Features = () => {
   return (
     <section className="features">
       <div className="users-info container">
@@ -66,6 +66,6 @@ function Features() {
       </div>
     </section>
   );
-}
+};
 
 export default Features;

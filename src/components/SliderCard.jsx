@@ -2,7 +2,7 @@ import "./SliderCard.css";
 // import CustomerImage from "../img/review/viezh.png";
 import ReviewStar from "../img/reviewstar.png";
 
-function SliderCard({ customer }) {
+const SliderCard = ({ customer }) => {
   return (
     <div className="slidercard">
       <div className="customer">
@@ -25,6 +25,6 @@ function SliderCard({ customer }) {
       </div>
     </div>
   );
-}
+};
 
 export default SliderCard;

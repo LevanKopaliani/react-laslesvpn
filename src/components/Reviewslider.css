@@ -7,5 +7,45 @@
   margin-bottom: 80px;
 }
 .slider-controller {
-  padding-top: 150px;
+  padding: 0 10px;
+  padding-top: 60px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-buttons {
+  display: flex;
+}
+.swip-btn {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swip-btn-prev {
+  background-color: transparent;
+  cursor: pointer;
+}
+.swip-btn-next {
+  background-color: #f53838;
+  cursor: pointer;
+}
+
+.swipslide {
+  /* width: 260px !important; */
+}
+.slider-dots {
+  text-align: left;
+}
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #f53838 !important;
 }

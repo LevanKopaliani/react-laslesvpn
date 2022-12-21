@@ -6,6 +6,7 @@ import Main from "./pages/Main";
 import Pricing from "./pages/Pricing";
 import Testimonials from "./pages/Testimonials";
 import Reviews from "./pages/Reviews";
+import Footer from "./components/Footer";
 
 const Layout = () => {
   return (
@@ -13,9 +14,11 @@ const Layout = () => {
       <Header />
       <Main />
       <Features />
+
       <Pricing />
       <Testimonials />
       <Reviews />
+      <Footer />
     </>
   );
 };

@@ -4,7 +4,7 @@ import { FaTimes, FaBars } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 
-function Header() {
+const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const toogleMenu = () => {
     setMobileMenu(!mobileMenu);
@@ -87,6 +87,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;
