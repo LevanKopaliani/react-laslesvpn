@@ -17,7 +17,13 @@ const ReviewSlider = () => {
         className="myswiper container"
         loop={true}
         spaceBetween={50}
-        slidesPerView={3}
+        slidesPerView={
+          Math.floor(window.innerWidth / 400) < 1
+            ? 1
+            : Math.floor(window.innerWidth / 400) > 3
+            ? 3
+            : Math.floor(window.innerWidth / 400)
+        }
         draggable={true}
         pagination={{
           el: ".slider-dots",

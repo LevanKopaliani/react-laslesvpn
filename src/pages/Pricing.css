@@ -16,6 +16,8 @@
   line-height: 50px;
 }
 .pricing-subtitle {
+  text-align: center;
+  padding: 20px;
   color: #4f5665;
   margin-top: 20px;
   font-weight: 400;
@@ -23,11 +25,15 @@
 }
 .pricing-plan {
   padding-top: 60px;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px, 760px);
   grid-auto-flow: column;
-  gap: 50px;
+  gap: 50px; */
 }
 .pricing-plan ul li {
   margin-top: 10px;
@@ -36,7 +42,8 @@
 .pricing-plan__free,
 .pricing-plan__standart,
 .pricing-plan__premium {
-  max-width: 330px;
+  min-width: 330px;
+  min-height: 760px;
   padding: 50px 35px;
   border: 2px solid #dddddd;
   border-radius: 10px;
@@ -91,10 +98,4 @@
 .plan-pricing__button:hover {
   background-color: #f53838;
   color: #f6f6f6;
-}
-@media screen and (max-width: 1080px) {
-  .pricing-plan {
-    display: flex;
-    flex-direction: column;
-  }
 }

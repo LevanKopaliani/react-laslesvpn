@@ -53,8 +53,17 @@
   /* width: 100%; */
   max-width: 610px;
   height: auto;
+  flex: 1 1;
 }
 .get-started-ilst img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 990px) {
+  .get-started-ilst {
+    width: 100%;
+    margin-top: 50px;
+    flex: none;
+  }
 }

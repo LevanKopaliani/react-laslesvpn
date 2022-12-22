@@ -6,10 +6,11 @@ function Pricing() {
     <section className="pricing">
       <div className="pricing-heading container">
         <h1 className="pricing-title">Choose Your Plan</h1>
-        <h4 className="pricing-subtitle">
+        <p className="pricing-subtitle">
           Let's choose the package that is best for you and explore it happily
-          and cheerfully.
-        </h4>
+          and <br />
+          cheerfully.
+        </p>
       </div>
       <div className="pricing-plan container">
         <div className="pricing-plan__free">
