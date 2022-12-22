@@ -49,3 +49,9 @@
 .swiper-pagination-bullet-active {
   background-color: #f53838 !important;
 }
+
+@media screen and (max-width: 760px) {
+  .myswiper {
+    margin-bottom: 0px;
+  }
+}
