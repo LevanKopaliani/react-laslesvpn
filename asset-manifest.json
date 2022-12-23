@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-laslesvpn/static/css/main.70c22c9b.css",
+    "main.js": "/react-laslesvpn/static/js/main.f1681d1f.js",
+    "static/js/787.3fc77555.chunk.js": "/react-laslesvpn/static/js/787.3fc77555.chunk.js",
+    "static/media/Illustration1.png": "/react-laslesvpn/static/media/Illustration1.1a5e3ccf2368be0ac566.png",
+    "static/media/features-img.png": "/react-laslesvpn/static/media/features-img.f6b6f811a81ba87db620.png",
+    "static/media/testimonials-map.png": "/react-laslesvpn/static/media/testimonials-map.2b5e78e8b1abc9d15da4.png",
+    "static/media/plan-icon.png": "/react-laslesvpn/static/media/plan-icon.0d5d17baf37e4acdfc89.png",
+    "index.html": "/react-laslesvpn/index.html",
+    "main.70c22c9b.css.map": "/react-laslesvpn/static/css/main.70c22c9b.css.map",
+    "main.f1681d1f.js.map": "/react-laslesvpn/static/js/main.f1681d1f.js.map",
+    "787.3fc77555.chunk.js.map": "/react-laslesvpn/static/js/787.3fc77555.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70c22c9b.css",
+    "static/js/main.f1681d1f.js"
+  ]
+}
